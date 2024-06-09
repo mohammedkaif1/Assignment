@@ -1,0 +1,222 @@
+.Contingent{
+    text-align: center;
+}
+ 
+.sortbyyear{
+    width:250px;
+    height:125px;
+    text-align: center;
+    padding:10px;
+    margin: 10px;
+}
+
+ 
+ 
+.heading{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 10px;
+}
+.ComponentHeading{
+    font-size: 20px;
+    color:#1A429A ;
+    font-weight: 500;
+    padding-top: 10px;
+   
+}
+.kpiComponents{
+    width: 1096px;
+    display: flex;
+    flex-direction: row;
+ gap: 2rem;
+ 
+}
+ 
+ 
+.add{
+   
+    border: 2px solid var(--red);
+    border-radius: 15px;
+      width: 152px;
+     height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    color: var(--red);
+    padding: 5px;
+}
+/* .addResourceDiv>*{
+    padding: 10px;
+   
+   
+} */
+ 
+.addResourceDiv>:nth-child(1){
+   font-size: 16px;
+   padding-left: 10px;
+}
+ 
+.tablerowicons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+ 
+.tablerow:hover{
+   
+    box-shadow: 0px 3px  5px 0px rgb(136, 136, 136);
+  cursor: pointer;
+ 
+}
+.searchkeypopover{
+    display: flex;
+    flex-direction: column;padding: 30px;
+    width:150px;
+    height: 70px;
+}
+ 
+table{
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 16px;
+  border-spacing: 0 10px;
+ 
+ 
+}
+.maintablehead{
+    color: white;
+    background-color: #1A429A;
+    border-radius: 10px;
+}
+.tablerow{
+ 
+    border-bottom: 1px solid #DDD;
+    border-top: 1px solid #DDD;
+    border-left: 1px solid #611212;
+    margin-bottom: 20px;
+
+ 
+}
+ 
+.secondtable{
+ 
+    border-bottom: 1px solid #DDD;
+   
+   
+}
+.secondtable-head{
+    border-bottom: 1px solid #DDD;
+font-weight: bold;
+font-size: 16px;
+ 
+}
+ 
+tbody>*{
+   
+    padding-bottom: 10px;
+   padding-left: 10px;
+    border-radius: 10px;
+}
+ 
+ 
+td{
+ 
+    text-align: center;
+}
+tr{
+    height: 50px;
+}
+.first
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.secondtable td{
+    padding-left: 20px;
+}
+.secondtable-head td{
+    padding-left: 20px;
+}
+.sdmsortul{
+    width: 150px;
+    height: 280px;
+   
+}
+.sdmsortul>ul{
+    margin: 0px;
+    padding-left: 10px;
+}
+.statussort{
+    display: flex;
+    flex-direction: row;
+}
+ 
+.sdmsortul>ul>li{
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+   
+}
+.maintablehead{
+ 
+    font-weight: 600;
+}
+.sdmsortul>ul>li:hover{
+    background-color: aliceblue;
+ 
+}
+.currentstatussortul{
+    width: 200px;
+    height: 200px;
+ 
+}
+.currentstatussortul>ul>li{
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+ 
+}
+.currentstatussortul>ul>li:hover{
+    background-color: aliceblue;
+}
+.currentstatussortul>ul{
+    margin: 0px;
+    padding-left: 10px;
+}
+.remove{
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    background-color: rgb(226, 101, 101);
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid red;
+   padding: 3px 3px;
+}
+.sorterrordiv{
+    display: flex;
+    flex-direction: row;
+}
+.sortingtablehead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-bottom: 10px;
+}
+.dropdownicon{
+padding-left: 3px;padding-top: -5px;
+}
+.second{
+    min-width:150px;
+
+}
+thead>tr>td{
+padding-left: 30px;
+}
+ 
